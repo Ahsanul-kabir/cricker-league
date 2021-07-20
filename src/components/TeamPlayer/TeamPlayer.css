@@ -1,0 +1,7 @@
+.Teamplayer {
+    margin: 10px auto;
+    width: 250px;
+    background-color: rgb(221, 221, 221);
+    border-radius: 10px;
+    overflow: hidden;
+}

@@ -1,0 +1,18 @@
+.Player {
+    margin: 10px;
+    width: 250px;
+    height: 200px;
+    background-color: rgb(221, 221, 221);
+    border-radius: 10px;
+}
+
+.player-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.player-info>img {
+    width: 60px;
+}

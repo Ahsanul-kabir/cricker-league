@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
 
 const Player = ({ player,addPlayer }) => {
-    const { name, imgUrl, role, country, salary, ranking, march } = player
+    const { name, imgUrl, role, country, salary, ranking, match } = player
 
     return (
         <div className='Player'>
@@ -24,7 +24,7 @@ const Player = ({ player,addPlayer }) => {
             <div className="p-2 d-flex align-items-center justify-content-between">
                 <div>
                     <p className="mb-0">T20 Ranking: <b>{ranking}</b></p>
-                    {/* <p className="mb-0">Match Played: <b>{match}</b></p> */}
+                    <p className="mb-0">Match Played: <b>{match}</b></p>
                 </div>
                 <button className="btn btn-success" onClick={() => addPlayer(player)}>
                     <FontAwesomeIcon icon={faPlus} />

@@ -2,12 +2,13 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import Header from './components/Header/Header';
 import Player from './components/Player/Player';
+import TeamPlayer from './components/TeamPlayer/TeamPlayer';
 import PlayersData from './fakeData/PlayerData.json'
 
 function App() {
   const [playerData, setPlayerData] = useState([])
   const [team, setTeam] = useState([]);
-  const budget = team.reduce((sum,player) => sum + player.salary,0)
+  const budget = team.reduce((sum, player) => sum + player.salary, 0)
 
   useEffect(() => {
     setPlayerData(PlayersData)
@@ -23,6 +24,10 @@ function App() {
     }
   }
 
+  const removeTeamplayer = (player) => {
+    const newTeam = team.filter((teammate) => teammate !== player);
+    setTeam(newTeam);
+  }
   return (
     <div className="App">
       <Header />
@@ -33,6 +38,13 @@ function App() {
             <h4 className="text-center">Your Fency Team</h4>
             <h6 className="text-center text-info">Player Selected : {team.length}</h6>
             <h5 className="text-center text-success">Team Budget : ${budget}</h5>
+            <div>
+              {
+                team.map((player, index) => {
+                  return <TeamPlayer key={index} player={player} removeTeamplayer={removeTeamplayer} />
+                })
+              }
+            </div>
           </div>
 
           <div className="col-md-9 players-list border border-secondary">

@@ -9,7 +9,7 @@ const Header = () => {
             <nav className='navbar navbar-light bg-dark'>
                 <div className="container-fluid">
                     <span className="navbar-brand mb-0 h1 text-white">
-                        <FontAwesomeIcon icon={faBaseballBall} /> Cricket Manager
+                        <FontAwesomeIcon icon={faBaseballBall} /> Cricket League
                     </span>
                 </div>
             </nav>
