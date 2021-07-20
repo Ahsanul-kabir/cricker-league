@@ -1,0 +1,136 @@
+[{
+        "name": "Shakib Al Hasan",
+        "country": "Bangladesh",
+        "salary": 100000,
+        "imgUrl": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170912/shakib-al-hasan.jpg",
+        "match": "76",
+        "ranking": "1",
+        "role": "All Rounder"
+    },
+    {
+        "name": "Tamim Iqbal",
+        "country": "Bangladesh",
+        "salary": 95000,
+        "imgUrl": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170899/tamim-iqbal.jpg",
+        "match": "78",
+        "ranking": "49",
+        "role": "Batsman"
+    },
+    {
+        "name": "Virat Kohli",
+        "country": "India",
+        "salary": 80000,
+        "imgUrl": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170661/virat-kohli.jpg",
+        "match": "84",
+        "ranking": "7",
+        "role": "Batsman"
+    },
+    {
+        "name": "AB de Villiers",
+        "country": "South Africa",
+        "salary": 87000,
+        "imgUrl": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170999/ab-de-villiers.jpg",
+        "match": "78",
+        "ranking": "6",
+        "role": "Batsman"
+    },
+    {
+        "name": "Mustafizur R.",
+        "country": "Bangladesh",
+        "salary": 82000,
+        "imgUrl": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170925/mustafizur-rahman.jpg",
+        "match": "41",
+        "ranking": "32",
+        "role": "Bowler"
+    },
+    {
+        "name": "Mushfiqur R.",
+        "country": "Bangladesh",
+        "salary": 93000,
+        "imgUrl": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170916/mushfiqur-rahim.jpg",
+        "match": "86",
+        "ranking": "56",
+        "role": "WK-Batsman"
+    },
+    {
+        "name": "Rohit Sharma",
+        "country": "India",
+        "salary": 89000,
+        "imgUrl": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170658/rohit-sharma.jpg",
+        "match": "108",
+        "ranking": "13",
+        "role": "Batsman"
+    },
+    {
+        "name": "Rashid Khan",
+        "country": "Afghanistan",
+        "salary": 75000,
+        "imgUrl": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170857/rashid-khan.jpg",
+        "match": "48",
+        "ranking": "2",
+        "role": "Bowler"
+    },
+    {
+        "name": "Mahmudullah",
+        "country": "Bangladesh",
+        "salary": 91000,
+        "imgUrl": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170905/mahmudullah.jpg",
+        "match": "87",
+        "ranking": "32",
+        "role": "All Rounder"
+    },
+    {
+        "name": "Mashrafe M.",
+        "country": "Bangladesh",
+        "salary": 99000,
+        "imgUrl": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170920/mashrafe-mortaza.jpg",
+        "match": "54",
+        "ranking": "28",
+        "role": "Bowler"
+    },
+    {
+        "name": "Lasith Malinga",
+        "country": "Sri Lanka",
+        "salary": 55000,
+        "imgUrl": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170724/lasith-malinga.jpg",
+        "match": "83",
+        "ranking": "29",
+        "role": "Bowler"
+    },
+    {
+        "name": "K. Williamson",
+        "country": "New Zealand",
+        "salary": 94000,
+        "imgUrl": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170733/kane-williamson.jpg",
+        "match": "64",
+        "ranking": "24",
+        "role": "Batsman"
+    },
+    {
+        "name": "Glenn Maxwell",
+        "country": "Australia",
+        "salary": 45000,
+        "imgUrl": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170641/glenn-maxwell.jpg",
+        "match": "69",
+        "ranking": "5",
+        "role": "All Rounder"
+    },
+    {
+        "name": "Adil Rashid",
+        "country": "England",
+        "salary": 45000,
+        "imgUrl": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170987/adil-rashid.jpg",
+        "match": "52",
+        "ranking": "4",
+        "role": "Bowler"
+    },
+    {
+        "name": "Trent Boult",
+        "country": "New Zealand",
+        "salary": 83000,
+        "imgUrl": "https://www.cricbuzz.com/a/img/v1/152x152/i1/c170747/trent-boult.jpg",
+        "match": "31",
+        "ranking": "73",
+        "role": "Bowler"
+    }
+]
